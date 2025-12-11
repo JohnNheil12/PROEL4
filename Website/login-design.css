@@ -3,18 +3,16 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     background-size: cover;        
-    display: flex;
     background-image: url("images/tl-banner.jpg");
 }
 .form-container {
-    background-color: white;
-    padding: 50px;
+    padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     max-width: 280px;
     margin: 0 auto;
-    margin-top: 250px ;
-    background: rgba(255, 255, 255, 0.3);
+    margin-top: 190px ;
+    background: rgba(255, 255, 255, .3);
     backdrop-filter: blur(10px);
 }
 input {
