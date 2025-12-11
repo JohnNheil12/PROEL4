@@ -24,11 +24,14 @@
     </div>
 </body>
 <script>
-    function cancel(){
-        window.location="index.html"
-    }
-    function cancel(){
-        window.location="index.html"
-    }
+        document.getElementById('signUpForm').addEventListener('submit', function(event) {
+        event.preventDefault(); 
+        alert("Sign-up successful! Welcome to the platform.");
+        window.location.href = "index.html";
+        });
+        function cancel() {
+                window.location = "login.html"; 
+        }
 </script>
 </html>
+
