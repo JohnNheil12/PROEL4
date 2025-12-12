@@ -9,9 +9,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 40px;
-    color: #fff;
+    color: white;
 }
-
 header .logo {
     display: flex;
     align-items: center;
@@ -34,6 +33,12 @@ nav a {
     text-decoration: none;
     color: white;
     font-size: 25px;
+}
+.login {
+    color:blue;
+}
+.signUp{
+    color: green;
 }
 .banner {
     width: 100%;
