@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-container">
+        <center><h2>LOGIN</h2></center>
+        <form id="LoginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label  for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <center>
+            <button type="loginButton" id="Login">LOGIN</button>
+            <button type="button" id="cancelBtn">CANCEL</button>
+            </center>
+        </form>
+    </div>
+</body>
+<script>
+   document.getElementById('LoginForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+    if(username === "john101804" && password === "password") {
+        alert("Sign-up successful! Welcome to the platform.");
+        window.location.href = "https://sams.act.edu.ph/";
+    } else {
+        alert("Invalid credentials! Please try again.");
+    }
+});
+
+function cancel() {
+    window.location.href = "login.html";
+}
+
+</script>
+</html>
